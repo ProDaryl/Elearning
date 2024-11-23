@@ -1,8 +1,12 @@
+import Benefit from "./component/Benefits"
+import Hero from "./component/Hero"
+
 const Home = () => {
   return (
-    <div className="w-full bg-background text-green-500 h-screen text-primary">
-      hello
-
+    <div className="bg-background relative w-full h-full">
+      <Hero/>
+      <Benefit/>
+      
     </div>
   )
 }
