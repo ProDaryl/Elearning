@@ -10,7 +10,7 @@ const Navbar = () => {
     const pathName = usePathname()
     const [openMenu,setOpenMenu] = useState(false)
     return (
-        <div className="px-2 w-full lg:px-5 pt-5 bg-background fixed">
+        <div className="px-2 w-full lg:px-5 pt-5 bg-background fixed z-10">
             <nav className="relative flex justify-between items-center p-2 px-6 w-full shadow-sm shadow-gray-200">
             <div className="flex gap-[10px] lg:gap-[40px] items-center justify-center">
                 <div className="md:py-2 md:px-1 lg:p-2 rounded text-white bg-orange-50"><Logo/></div>

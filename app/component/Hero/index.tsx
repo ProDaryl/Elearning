@@ -1,7 +1,6 @@
 "use client"
 import Link from "next/link"
 import FlashIcon from "../FlashIcon"
-import Navbar from "../Navbar"
 
 const Hero = () => {
   return (

@@ -1,5 +1,5 @@
 import Card from './Card';
-import courseImage from '../../../public/image.jpg'
+import courseImage from '../../../public/image.png'
 
 const OurCourses = () => {
   return (
