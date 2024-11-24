@@ -5,7 +5,7 @@ import Navbar from "../Navbar"
 
 const Hero = () => {
   return (
-    <div className="w-full flex flex-col justify-center items-center px-3 pt-20 md:pt-5 h-screen ">
+    <div className="w-full flex flex-col justify-center items-center px-3 pt-20 md:pt-[160px] h-screen lg:h-[85vh] ">
       <div className="bg-white flex items-center gap-2 p-3 rounded-md">
         <div className="p-3 bg-orange-95 rounded-md"><FlashIcon/></div>
         <div className="text-gray-15 text-[16px] leading-[150%] font-semibold"><span className="text-orange-50">Unlock</span> Your Creative Potential</div>
