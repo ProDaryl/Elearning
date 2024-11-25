@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { Be_Vietnam_Pro } from 'next/font/google'
 import "./globals.css";
-import { ThemeProvider } from "./component/theme-provider";
+// import { ThemeProvider } from "./component/theme-provider";
 import Navbar from "./component/Navbar";
+import Footer from "./component/Footer";
 
  
 const poppins = Be_Vietnam_Pro({
@@ -25,8 +26,15 @@ export default function RootLayout({
       <body
         className={` ${poppins.className}  w-full`}
       >
-          <Navbar/>
-          {children}
+          <header>
+            <Navbar/>
+          </header>
+          <main>
+            {children}
+            </main>
+          <footer>
+            <Footer/>
+          </footer>
       </body>
     </html>
   );

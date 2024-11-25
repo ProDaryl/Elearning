@@ -3,7 +3,7 @@ import courseImage from '../../../public/image.png'
 
 const OurCourses = () => {
   return (
-    <div className="w-[96%] flex flex-col align-center justify-center pt-[10em] bg-[#f7f7f8]">
+    <div className="w-[96%] flex flex-col align-center justify-center pt-[10em] bg-background">
       <div className='w-[85%] mx-auto'>
         <h1 className='text-xl font-bold py-4'> Recommended courses </h1>
         <div className='flex justify-betwee relative'>
