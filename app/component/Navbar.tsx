@@ -17,10 +17,11 @@ const Navbar = () => {
     { href: "/courses", label: "Courses" },
     { href: "/about-us", label: "About Us" },
     { href: "/contact", label: "Contact" },
+    {href: '/community', label: 'Community'},
   ];
 
   const communityLinks = [
-    { href: "/community", label: "Forums" },
+    { href: "/community", label: "Community Home" },
     { href: "/community/groups", label: "Groups" },
     { href: "/community/events", label: "Events" },
     { href: "/community/resources", label: "Resources" },
@@ -35,7 +36,9 @@ const Navbar = () => {
         {/* Left Section: Logo and Links */}
         <div className="flex gap-[10px] lg:gap-[40px] items-center justify-center">
           <div className="p-2 md:py-2 md:px-1 lg:p-2 rounded text-white bg-orange-400">
-            <Logo />
+            <Link href={'/'}>
+              <Logo />
+            </Link>
           </div>
           <div
             className={`absolute flex-col ${

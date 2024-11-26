@@ -7,14 +7,14 @@ function HeroSection() {
       {/* Left Section */}
       <div className="flex flex-col w-full md:w-[50%]">
         <h1 className="text-4xl md:text-6xl font-extrabold leading-tight text-gray-800">
-          Join the <span className="text-blue-500">Learning Community</span>
+          Join the <span className="text-orange-400">Learning Community</span>
         </h1>
         <p className="mt-4 text-lg text-gray-600">
           Connect with learners, share knowledge, and grow together. Explore forums, join groups, and participate in live events to enhance your learning experience.
         </p>
         <div className="mt-6 flex gap-4">
           <button
-            className="bg-blue-500 text-white rounded-lg px-6 py-3 font-medium shadow hover:bg-blue-600 transition"
+            className="bg-orange-400 text-white rounded-lg px-6 py-3 font-medium shadow hover:bg-orange-500 transition"
           >
             Get Started
           </button>
