@@ -3,8 +3,8 @@ import person1Image from '../../../public/person.png';
 
 function OurTestimonials() {
   return (
-    <div className='w-[87%] flex flex-col align-center justify-center mx-auto my-10 gap-4 bg-[#f7f7f8]'>
-      <div>
+    <div className='w-[80%] flex flex-col align-center justify-center mx-auto my-10 gap-4 bg-background'>
+      <div className="mb-10">
         <h1 className='font-bold text-xl py-4'>Our Testimonials</h1>
         <div className='flex justify-betwee relative'>
           <p className='flex-2 w-[80%]'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure ratione placeat commodi, nihil eum, iste enim sint aliquid hic deleniti incidunt nemo quaerat! Eligendi, eius quisquam? Doloribus odio ipsam blanditiis?</p>

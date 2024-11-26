@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import PropTypes from 'prop-types';
 
 
@@ -15,8 +16,8 @@ function Card({description, personImage, personName}: cardProps) {
       </div>
 
       <div className='flex text-nowrap'>
-        <div className='flex w-10'>
-          <img src={personImage} alt="Person Image" />
+        <div className='flex w-10 items-center p-1 gap-4'>
+          <Image src={personImage} alt="Person Image" width={50} height={10} />
           <p className='font-semibold'>{personName}</p>
         </div>
         <div>
