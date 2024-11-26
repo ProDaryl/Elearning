@@ -1,4 +1,5 @@
 import Image from "next/image";
+import heroImage1 from '../../../public/community-image.png'
 
 function HeroSection() {
   return (
@@ -28,11 +29,11 @@ function HeroSection() {
       {/* Right Section */}
       <div className="w-full md:w-[50%] mt-8 md:mt-0">
         <Image
-          src="/images/community-hero.svg"
+          src={heroImage1}
           alt="Community Illustration"
           className="w-full h-auto"
-          width={50}
-          height={50}
+          width={500}
+          height={500}
         />
       </div>
     </div>
